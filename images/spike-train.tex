@@ -1,0 +1,20 @@
+\def\lenspike{0.5cm}
+\begin{tikzpicture}[scale=1, transform shape]
+  % Neuron 1
+  \def\circlex{0}
+  \def\circley{0}
+  \draw [FriendsMagenta, thick, ->] (\circlex, \circley) -- ++ (3cm, 0);
+  \draw [FriendsMagenta, thick] (\circlex + 1cm, \circley) -- ++ (0, \lenspike);
+
+  \draw [FirstGreen, thick, ->] (\circlex + 1cm, \circley + 0.75) -- ++ (\circlex + 1cm, 2);
+
+  % Neuron 2
+  \def\circlex{0}
+  \def\circley{3}
+  \draw [FedoraBlue, thick, ->] (\circlex, \circley) -- ++ (3cm, 0);
+  \draw [FedoraBlue, thick] (\circlex + 2cm, \circley) -- ++ (0, \lenspike);
+
+
+\end{tikzpicture}
+
+
