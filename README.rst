@@ -2,7 +2,7 @@
 ---------------------
 
 These are the slides for our talk on NeuroFedora_ at the `Open Source Brain
-workshop http://www.opensourcebrain.org/docs/Help/Meetings#OSB_2019`__.
+workshop <http://www.opensourcebrain.org/docs/Help/Meetings#OSB_2019>`__.
 
 All the text is in :code:`20190909_neurofedora.tex`. The other files are merely
 used to generate different outputs. Generally, it is enough to modify the main
